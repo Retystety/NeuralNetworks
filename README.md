@@ -2,7 +2,7 @@
 This plugin aims to provide an easy and flexible artificial neural networks framework.
 
 <h1>Elements</h1>
--NeuralNet
+-NeuralNet<n>
 -BaseNeuralNet
 -NeuralNetMethods
 -ForEachConnectionHandle
