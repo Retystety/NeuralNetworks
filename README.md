@@ -25,9 +25,9 @@
     <br>Array data - Array of arrays of floats, value of each connection (weight). setget will return or pass duplicate<br>
     <br>Array neuron_dat - Array of arrays of ints, last activate neuron value or neuron error value, depends on whether was .calculate() or .back_propagation() method called last, setget will return or pass duplicate<br>
   <h4>Methods</h4>
-     BaseNeuralNet new(Array net_structure) - Creates a new object sets self.net_structure to duplicate. Sets value of each connection to 0.
-     <br>void add_random(float min_val, float max_val) - Adds random value to each connection.
-     <br>void multiply_random(float min_val, float max_val) - Multiplies each connection by random value.
+     BaseNeuralNet new(Array net_structure) - Creates a new object sets self.net_structure to duplicate. Sets value of each connection to 0.<br>
+     <br>void add_random(float min_val, float max_val) - Adds random value to each connection.<br>
+     <br>void multiply_random(float min_val, float max_val) - Multiplies each connection by random value.<br>
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
