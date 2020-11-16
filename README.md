@@ -45,5 +45,7 @@
     Reference
   <h4>Description</h4>
     “Abstract” class. Provides way to change connections (weights) in a custom way.
+  <h4>Methods</h4>
+    void _for_each_connection(int x, int y, int z, int index, BaseNeuralNet net)
 
 <h1>How to</h1>
