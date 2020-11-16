@@ -28,7 +28,7 @@
      BaseNeuralNet new(Array net_structure) - Creates a new object sets self.net_structure to duplicate. Sets value of each connection to 0.<br>
      <br>void add_random(float min_val, float max_val) - Adds random value to each connection.<br>
      <br>void multiply_random(float min_val, float max_val) - Multiplies each connection by random value.<br>
-     <br>Array calculate(Array input) - Runs net.
+     <br>Array calculate(Array input) - Runs net.<br>
      <br>void back_propagation(Array error, float lerning_factor) - Propagates error and correct connections.<br>
     
 <h2>NeuralNetMethods</h2>
