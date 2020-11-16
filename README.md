@@ -21,6 +21,9 @@
   <h4>Description</h4>
     Semi “abstract” class. Base for all neural networks.
   <h4>Properties</h4>
+    Array net_structure - array of ints, describing each layer size, setget will return or pass duplicate<br>
+    Array data - array of arrays of float,s value of each connection (weight), setget will return or pass duplicate<br>
+    Array neuron_dat - array of arrays of ints, last activate neuron value or neuron error value depends whether was .calculate() or .back_propagation() method called last,   setget will return or pass duplicate<br>
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
