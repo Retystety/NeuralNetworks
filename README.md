@@ -20,6 +20,7 @@
     Reference
   <h4>Description</h4>
     Semi “abstract” class. Base for all neural networks.
+  <h4>Properties</h4>
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
