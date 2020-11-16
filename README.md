@@ -18,7 +18,7 @@
     Reference
     
 <h2>NeuralNetMethods</h2>
-  <h4>Inherits:<h4>
+  <h4>Inherits:</h4>
     Node
     
 <h2>ForEachConnectionHandle</h2>
