@@ -29,4 +29,4 @@
     Reference
   <h4>Description</h4>
 
-<h1>Quick Start</h1>
+<h1How to</h1>
