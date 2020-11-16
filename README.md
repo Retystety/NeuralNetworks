@@ -9,4 +9,7 @@ This plugin aims to provide an easy and flexible artificial neural networks fram
   
 <h1>Documentacion</h1>
 
-  
+<h2>NeuralNet</h2>
+<h2>BaseNeuralNet</h2>
+<h2>NeuralNetMethods</h2>
+<h2>ForEachConnectionHandle</h2>
