@@ -13,20 +13,24 @@
   <h4>Inherits:</h4>
     BaseNeuralNet < Reference
   <h4>Description</h4>
+    Ready to use net with sigmoidal activation function f(x)=x/sqrt(1+x^2).
                              
 <h2>BaseNeuralNet</h2>
   <h4>Inherits:</h4>
     Reference
   <h4>Description</h4>
+    Semi “abstract” class. Base for all neural networks.
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
     Node
  <h4>Description</h4>
+   Singleton container for methods that would cause cyclic dependency errors if placed as member functions. 
     
 <h2>ForEachConnectionHandle</h2>
   <h4>Inherits:</h4>
     Reference
   <h4>Description</h4>
+    “Abstract” class. Provides way to change connections (weights) in a custom way.
 
 <h1>How to</h1>
