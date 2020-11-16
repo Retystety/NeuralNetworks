@@ -29,4 +29,4 @@
     Reference
   <h4>Description</h4>
 
-<h1How to</h1>
+<h1>How to</h1>
