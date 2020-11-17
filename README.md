@@ -33,7 +33,7 @@ Do not call functions with “_” prefix directly.
      <br>void back_propagation(Array error, float lerning_factor) - Propagates error and correct connections.<br>
      <br>float _actiavte(float e) - “Virtual” function. Default return value is always zero. Override it with activation function of your choice. <br>
      <br>float _derivative(float x) - “Virtual” function. Derivative of activation function in point x. No need to overwrite it if you don't plan to use back propagation.<br>
-     <br>void for_each_connection(ForEachConnectionHandle handle) - Calls handle._for_each_connection() for each connection where x and y (x is closer to or is in the output layer) are neurons that it is connecting. Z is the first self.data index and index is second.In another words connection is data[z][index]. Index is calculated from this formula i = x*(net_structure[z]+1)+y. Net is self.<br>
+     <br>void for_each_connection(ForEachConnectionHandle handle) - Calls handle._for_each_connection(int x, int y, int z, BaseNeuralNet net) for each connection where x and y (x is closer to or is in the output layer) are neurons that it is connecting. Z is the first self.data index and index is second.In another words connection is data[z][index]. Index is calculated from this formula i = x*(net_structure[z]+1)+y. Net is self.<br>
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
