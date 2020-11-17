@@ -40,7 +40,7 @@ Do not call functions with “_” prefix directly.
  <h4>Description</h4>
    Singleton container for methods that would cause cyclic dependency errors if placed as member functions. 
  <h4>Methods</h4>
-   String print_net(BaseNeuralNet net) - converts net to JSON dictionary.<br>
+   String print_net(BaseNeuralNet net) - converts net to JSON string.<br>
    <br>BaseNeuralNet parse_net(String json) - converts String back to BaseNeuralNet.<br>
     
 <h2>ForEachConnectionHandle</h2>
