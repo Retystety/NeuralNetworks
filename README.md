@@ -8,6 +8,7 @@
   -ForEachConnectionHandle
   
 <h1>Documentacion</h1>
+Do not call functions with “_” prefix directly.
 
 <h2>NeuralNet</h2>
   <h4>Inherits:</h4>
@@ -30,6 +31,8 @@
      <br>void multiply_random(float min_val, float max_val) - Multiplies each connection by random value.<br>
      <br>Array calculate(Array input) - Runs net. Returns Array of floats of size of last self.net_structure cell value.<br>
      <br>void back_propagation(Array error, float lerning_factor) - Propagates error and correct connections.<br>
+     <br>float _actiavte(float e) - “Virtual” function. Default return value is always zero. Override it with activation function of your choice. <br>
+     <br>float _derivative(float x) - “Virtual” function. Derivative of activation function in point x. No need to overwrite it if you don't plan to use back propagation.<br>
     
 <h2>NeuralNetMethods</h2>
   <h4>Inherits:</h4>
